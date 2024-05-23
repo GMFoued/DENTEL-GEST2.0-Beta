@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ddddd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ddddd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dentel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dentel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="df1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\df1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="df2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\df2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="df3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\df3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="df4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\df4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="df5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\df5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="df6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\df6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="df7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\df7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="df8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\df8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dsdfsdfsdfsdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dsdfsdfsdfsdf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ffdggsdsd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ffdggsdsd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dent85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dent85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteA85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteA85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB72.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB84.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteB85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteB85.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD281.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD282" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD282.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteD283" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteD283.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE271" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteE272" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteE272.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DentacteEX121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DentacteEX121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

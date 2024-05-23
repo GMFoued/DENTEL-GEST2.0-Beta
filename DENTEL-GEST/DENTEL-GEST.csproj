@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B368960-5B49-4E66-AFC3-B65A153E343C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DENTEL_GEST</RootNamespace>
+    <AssemblyName>DENTEL-GEST</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acte.Designer.cs">
+      <DependentUpon>Acte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adulte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adulte.Designer.cs">
+      <DependentUpon>Adulte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutConsul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutConsul.Designer.cs">
+      <DependentUpon>AjoutConsul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseTestDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BaseTestDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="rdv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rdv.Designer.cs">
+      <DependentUpon>rdv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl3.Designer.cs">
+      <DependentUpon>UserControl3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl4.Designer.cs">
+      <DependentUpon>UserControl4.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Acte.resx">
+      <DependentUpon>Acte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adulte.resx">
+      <DependentUpon>Adulte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutConsul.resx">
+      <DependentUpon>AjoutConsul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rdv.resx">
+      <DependentUpon>rdv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl2.resx">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl3.resx">
+      <DependentUpon>UserControl3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl4.resx">
+      <DependentUpon>UserControl4.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BaseTestDataSet.xsc">
+      <DependentUpon>BaseTestDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BaseTestDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BaseTestDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BaseTestDataSet.xss">
+      <DependentUpon>BaseTestDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BaseTest.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BaseTest_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>BaseTest.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\DentacteEX121.png" />
+    <None Include="Resources\DentacteEX111.png" />
+    <None Include="Resources\DentacteEX48.png" />
+    <None Include="Resources\DentacteEX47.png" />
+    <None Include="Resources\DentacteEX46.png" />
+    <None Include="Resources\DentacteEX45.png" />
+    <None Include="Resources\DentacteEX44.png" />
+    <None Include="Resources\DentacteEX43.png" />
+    <None Include="Resources\DentacteEX42.png" />
+    <None Include="Resources\DentacteEX41.png" />
+    <None Include="Resources\DentacteEX38.png" />
+    <None Include="Resources\DentacteEX37.png" />
+    <None Include="Resources\DentacteEX36.png" />
+    <None Include="Resources\DentacteEX35.png" />
+    <None Include="Resources\DentacteEX34.png" />
+    <None Include="Resources\DentacteEX33.png" />
+    <None Include="Resources\DentacteEX32.png" />
+    <None Include="Resources\DentacteEX31.png" />
+    <None Include="Resources\DentacteEX28.png" />
+    <None Include="Resources\DentacteEX27.png" />
+    <None Include="Resources\DentacteEX26.png" />
+    <None Include="Resources\DentacteEX25.png" />
+    <None Include="Resources\DentacteEX24.png" />
+    <None Include="Resources\DentacteEX23.png" />
+    <None Include="Resources\DentacteEX22.png" />
+    <None Include="Resources\DentacteEX21.png" />
+    <None Include="Resources\DentacteEX18.png" />
+    <None Include="Resources\DentacteEX17.png" />
+    <None Include="Resources\DentacteEX16.png" />
+    <None Include="Resources\DentacteEX15.png" />
+    <None Include="Resources\DentacteEX14.png" />
+    <None Include="Resources\DentacteEX13.png" />
+    <None Include="Resources\DentacteEX12.png" />
+    <None Include="Resources\DentacteEX11.png" />
+    <None Include="Resources\DentacteE272.png" />
+    <None Include="Resources\DentacteE271.png" />
+    <None Include="Resources\DentacteE48.png" />
+    <None Include="Resources\DentacteE47.png" />
+    <None Include="Resources\DentacteE46.png" />
+    <None Include="Resources\DentacteE45.png" />
+    <None Include="Resources\DentacteE44.png" />
+    <None Include="Resources\DentacteE43.png" />
+    <None Include="Resources\DentacteE42.png" />
+    <None Include="Resources\DentacteE41.png" />
+    <None Include="Resources\DentacteE38.png" />
+    <None Include="Resources\DentacteE37.png" />
+    <None Include="Resources\DentacteE36.png" />
+    <None Include="Resources\DentacteE35.png" />
+    <None Include="Resources\DentacteE34.png" />
+    <None Include="Resources\DentacteE33.png" />
+    <None Include="Resources\DentacteE32.png" />
+    <None Include="Resources\DentacteE31.png" />
+    <None Include="Resources\DentacteE28.png" />
+    <None Include="Resources\DentacteE27.png" />
+    <None Include="Resources\DentacteE26.png" />
+    <None Include="Resources\DentacteE25.png" />
+    <None Include="Resources\DentacteE24.png" />
+    <None Include="Resources\DentacteE23.png" />
+    <None Include="Resources\DentacteE22.png" />
+    <None Include="Resources\DentacteE21.png" />
+    <None Include="Resources\DentacteE18.png" />
+    <None Include="Resources\DentacteE17.png" />
+    <None Include="Resources\DentacteE16.png" />
+    <None Include="Resources\DentacteE15.png" />
+    <None Include="Resources\DentacteE14.png" />
+    <None Include="Resources\DentacteE13.png" />
+    <None Include="Resources\DentacteE12.png" />
+    <None Include="Resources\DentacteE11.png" />
+    <None Include="Resources\DentacteD283.png" />
+    <None Include="Resources\DentacteD282.png" />
+    <None Include="Resources\DentacteD281.png" />
+    <None Include="Resources\DentacteD48.png" />
+    <None Include="Resources\DentacteD47.png" />
+    <None Include="Resources\DentacteD46.png" />
+    <None Include="Resources\DentacteD45.png" />
+    <None Include="Resources\DentacteD44.png" />
+    <None Include="Resources\DentacteD43.png" />
+    <None Include="Resources\DentacteD42.png" />
+    <None Include="Resources\DentacteD41.png" />
+    <None Include="Resources\DentacteD38.png" />
+    <None Include="Resources\DentacteD37.png" />
+    <None Include="Resources\DentacteD36.png" />
+    <None Include="Resources\DentacteD35.png" />
+    <None Include="Resources\DentacteD34.png" />
+    <None Include="Resources\DentacteD33.png" />
+    <None Include="Resources\DentacteD32.png" />
+    <None Include="Resources\DentacteD31.png" />
+    <None Include="Resources\DentacteD28.png" />
+    <None Include="Resources\DentacteD27.png" />
+    <None Include="Resources\DentacteD26.png" />
+    <None Include="Resources\DentacteD25.png" />
+    <None Include="Resources\DentacteD24.png" />
+    <None Include="Resources\DentacteD23.png" />
+    <None Include="Resources\DentacteD22.png" />
+    <None Include="Resources\DentacteD21.png" />
+    <None Include="Resources\DentacteD18.png" />
+    <None Include="Resources\DentacteD17.png" />
+    <None Include="Resources\DentacteD16.png" />
+    <None Include="Resources\DentacteD15.png" />
+    <None Include="Resources\DentacteD14.png" />
+    <None Include="Resources\DentacteD13.png" />
+    <None Include="Resources\DentacteD12.png" />
+    <None Include="Resources\DentacteD11.png" />
+    <None Include="Resources\DentacteB85.png" />
+    <None Include="Resources\DentacteB84.png" />
+    <None Include="Resources\DentacteB83.png" />
+    <None Include="Resources\DentacteB82.png" />
+    <None Include="Resources\DentacteB81.png" />
+    <None Include="Resources\DentacteB75.png" />
+    <None Include="Resources\DentacteB74.png" />
+    <None Include="Resources\DentacteB73.png" />
+    <None Include="Resources\DentacteB72.png" />
+    <None Include="Resources\DentacteB71.png" />
+    <None Include="Resources\DentacteB65.png" />
+    <None Include="Resources\DentacteB64.png" />
+    <None Include="Resources\DentacteB63.png" />
+    <None Include="Resources\DentacteB62.png" />
+    <None Include="Resources\DentacteB61.png" />
+    <None Include="Resources\DentacteB55.png" />
+    <None Include="Resources\DentacteB54.png" />
+    <None Include="Resources\DentacteB53.png" />
+    <None Include="Resources\DentacteB52.png" />
+    <None Include="Resources\DentacteB51.png" />
+    <None Include="Resources\DentacteB48.png" />
+    <None Include="Resources\DentacteB47.png" />
+    <None Include="Resources\DentacteB46.png" />
+    <None Include="Resources\DentacteB45.png" />
+    <None Include="Resources\DentacteB44.png" />
+    <None Include="Resources\DentacteB43.png" />
+    <None Include="Resources\DentacteB42.png" />
+    <None Include="Resources\DentacteB41.png" />
+    <None Include="Resources\DentacteB38.png" />
+    <None Include="Resources\DentacteB37.png" />
+    <None Include="Resources\DentacteB36.png" />
+    <None Include="Resources\DentacteB35.png" />
+    <None Include="Resources\DentacteB34.png" />
+    <None Include="Resources\DentacteB33.png" />
+    <None Include="Resources\DentacteB32.png" />
+    <None Include="Resources\DentacteB31.png" />
+    <None Include="Resources\DentacteB28.png" />
+    <None Include="Resources\DentacteB27.png" />
+    <None Include="Resources\DentacteB26.png" />
+    <None Include="Resources\DentacteB25.png" />
+    <None Include="Resources\DentacteB24.png" />
+    <None Include="Resources\DentacteB23.png" />
+    <None Include="Resources\DentacteB22.png" />
+    <None Include="Resources\DentacteB21.png" />
+    <None Include="Resources\DentacteB18.png" />
+    <None Include="Resources\DentacteB17.png" />
+    <None Include="Resources\DentacteB16.png" />
+    <None Include="Resources\DentacteB15.png" />
+    <None Include="Resources\DentacteB14.png" />
+    <None Include="Resources\DentacteB13.png" />
+    <None Include="Resources\DentacteB12.png" />
+    <None Include="Resources\DentacteB11.png" />
+    <None Include="Resources\DentacteA85.png" />
+    <None Include="Resources\DentacteA84.png" />
+    <None Include="Resources\DentacteA83.png" />
+    <None Include="Resources\DentacteA82.png" />
+    <None Include="Resources\DentacteA81.png" />
+    <None Include="Resources\DentacteA75.png" />
+    <None Include="Resources\DentacteA74.png" />
+    <None Include="Resources\DentacteA73.png" />
+    <None Include="Resources\DentacteA72.png" />
+    <None Include="Resources\DentacteA71.png" />
+    <None Include="Resources\DentacteA65.png" />
+    <None Include="Resources\DentacteA64.png" />
+    <None Include="Resources\DentacteA63.png" />
+    <None Include="Resources\DentacteA62.png" />
+    <None Include="Resources\DentacteA61.png" />
+    <None Include="Resources\DentacteA55.png" />
+    <None Include="Resources\DentacteA54.png" />
+    <None Include="Resources\DentacteA53.png" />
+    <None Include="Resources\DentacteA52.png" />
+    <None Include="Resources\DentacteA51.png" />
+    <None Include="Resources\DentacteA48.png" />
+    <None Include="Resources\DentacteA47.png" />
+    <None Include="Resources\DentacteA46.png" />
+    <None Include="Resources\DentacteA45.png" />
+    <None Include="Resources\DentacteA44.png" />
+    <None Include="Resources\DentacteA43.png" />
+    <None Include="Resources\DentacteA42.png" />
+    <None Include="Resources\DentacteA41.png" />
+    <None Include="Resources\DentacteA38.png" />
+    <None Include="Resources\DentacteA37.png" />
+    <None Include="Resources\DentacteA36.png" />
+    <None Include="Resources\DentacteA35.png" />
+    <None Include="Resources\DentacteA34.png" />
+    <None Include="Resources\DentacteA33.png" />
+    <None Include="Resources\DentacteA32.png" />
+    <None Include="Resources\DentacteA31.png" />
+    <None Include="Resources\DentacteA28.png" />
+    <None Include="Resources\DentacteA27.png" />
+    <None Include="Resources\DentacteA26.png" />
+    <None Include="Resources\DentacteA25.png" />
+    <None Include="Resources\DentacteA24.png" />
+    <None Include="Resources\DentacteA23.png" />
+    <None Include="Resources\DentacteA22.png" />
+    <None Include="Resources\DentacteA21.png" />
+    <None Include="Resources\DentacteA18.png" />
+    <None Include="Resources\DentacteA17.png" />
+    <None Include="Resources\DentacteA16.png" />
+    <None Include="Resources\DentacteA15.png" />
+    <None Include="Resources\DentacteA14.png" />
+    <None Include="Resources\DentacteA13.png" />
+    <None Include="Resources\DentacteA12.png" />
+    <None Include="Resources\DentacteA11.png" />
+    <None Include="Resources\Dent85.png" />
+    <None Include="Resources\Dent84.png" />
+    <None Include="Resources\Dent83.png" />
+    <None Include="Resources\Dent82.png" />
+    <None Include="Resources\Dent81.png" />
+    <None Include="Resources\Dent75.png" />
+    <None Include="Resources\Dent74.png" />
+    <None Include="Resources\Dent73.png" />
+    <None Include="Resources\Dent72.png" />
+    <None Include="Resources\Dent71.png" />
+    <None Include="Resources\Dent65.png" />
+    <None Include="Resources\Dent64.png" />
+    <None Include="Resources\Dent63.png" />
+    <None Include="Resources\Dent62.png" />
+    <None Include="Resources\Dent61.png" />
+    <None Include="Resources\Dent55.png" />
+    <None Include="Resources\Dent54.png" />
+    <None Include="Resources\Dent53.png" />
+    <None Include="Resources\Dent52.png" />
+    <None Include="Resources\Dent51.png" />
+    <None Include="Resources\Dent48.png" />
+    <None Include="Resources\Dent47.png" />
+    <None Include="Resources\Dent46.png" />
+    <None Include="Resources\Dent45.png" />
+    <None Include="Resources\Dent44.png" />
+    <None Include="Resources\Dent43.png" />
+    <None Include="Resources\Dent42.png" />
+    <None Include="Resources\Dent41.png" />
+    <None Include="Resources\Dent38.png" />
+    <None Include="Resources\Dent37.png" />
+    <None Include="Resources\Dent36.png" />
+    <None Include="Resources\Dent35.png" />
+    <None Include="Resources\Dent34.png" />
+    <None Include="Resources\Dent33.png" />
+    <None Include="Resources\Dent32.png" />
+    <None Include="Resources\Dent31.png" />
+    <None Include="Resources\Dent28.png" />
+    <None Include="Resources\Dent27.png" />
+    <None Include="Resources\Dent26.png" />
+    <None Include="Resources\Dent25.png" />
+    <None Include="Resources\Dent24.png" />
+    <None Include="Resources\Dent23.png" />
+    <None Include="Resources\Dent22.png" />
+    <None Include="Resources\Dent21.png" />
+    <None Include="Resources\Dent18.png" />
+    <None Include="Resources\Dent17.png" />
+    <None Include="Resources\Dent16.png" />
+    <None Include="Resources\Dent15.png" />
+    <None Include="Resources\Dent14.png" />
+    <None Include="Resources\Dent13.png" />
+    <None Include="Resources\Dent12.png" />
+    <None Include="Resources\Dent11.png" />
+    <None Include="Resources\n8.jpg" />
+    <None Include="Resources\n7.jpg" />
+    <None Include="Resources\n6.jpg" />
+    <None Include="Resources\n5.jpg" />
+    <None Include="Resources\n4.jpg" />
+    <None Include="Resources\n3.jpg" />
+    <None Include="Resources\n2.jpg" />
+    <None Include="Resources\n1.jpg" />
+    <None Include="Resources\ffdggsdsd.jpg" />
+    <None Include="Resources\dsdfsdfsdfsdf.jpg" />
+    <None Include="Resources\df8.jpg" />
+    <None Include="Resources\df7.jpg" />
+    <None Include="Resources\df6.jpg" />
+    <None Include="Resources\df5.jpg" />
+    <None Include="Resources\df4.jpg" />
+    <None Include="Resources\df3.jpg" />
+    <None Include="Resources\df2.jpg" />
+    <None Include="Resources\df1.jpg" />
+    <None Include="Resources\dentel.jpg" />
+    <None Include="Resources\ddddd.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
